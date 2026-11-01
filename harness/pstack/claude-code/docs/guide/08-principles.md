@@ -37,7 +37,7 @@ The core principles decide how much to build and when to rethink the design:
 - [Subtract Before You Add](../../skills/principle-subtract-before-you-add/SKILL.md) removes dead weight before building on top of it.
 - [Minimize Reader Load](../../skills/principle-minimize-reader-load/SKILL.md) collapses layers and hidden state a reader must hold in their head.
 - [Outcome-Oriented Execution](../../skills/principle-outcome-oriented-execution/SKILL.md) converges rewrites on the target design instead of preserving throwaway compatibility states.
-- [Experience First](../../skills/principle-experience-first/SKILL.md) chooses the user's result over implementation convenience.
+- [Experience First](../../skills/principle-experience-first/SKILL.md) chooses the user's result over implementation convenience. For a new feature or a big front-end change, that means a confirmed flow and prototype before the real build.
 - [Exhaust the Design Space](../../skills/principle-exhaust-the-design-space/SKILL.md) builds two or three competing prototypes when there's no precedent.
 - [Build the Lever](../../skills/principle-build-the-lever/SKILL.md) builds the script that does or proves the work, so a reviewer can rerun it. When an agent keeps doing the same thing by hand, have it write the tool or skill it wishes it had. If a script can do a step the same way every time, use the script, and save agents for the judgment calls.
 
@@ -61,7 +61,7 @@ The verification principles define what counts as proof:
 The delegation principles keep parallel work sane:
 
 - [Guard the Context Window](../../skills/principle-guard-the-context-window/SKILL.md) routes bulk reading to subagents and keeps findings in the main chat.
-- [Never Block on the Human](../../skills/principle-never-block-on-the-human/SKILL.md) proceeds on reversible work and presents the result.
+- [Never Block on the Human](../../skills/principle-never-block-on-the-human/SKILL.md) proceeds on reversible work and presents the result. A new feature or a big front-end change is the deliberate exception, and it waits on the [Prototype-first playbook](../../skills/poteto-mode/playbooks/prototype-first.md).
 
 And one meta principle:
 

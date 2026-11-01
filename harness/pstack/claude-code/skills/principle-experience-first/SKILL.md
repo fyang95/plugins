@@ -10,7 +10,7 @@ When implementation convenience conflicts with user delight, choose delight.
 
 - Every feature, control, and option must be justified
 - Ship less, ship better (polished experience with three features beats rough one with ten)
-- Prototype before committing (design decisions are cheaper in throwaway HTML than production code)
+- Prototype before committing (design decisions are cheaper in throwaway HTML than production code). For a new feature or a big front-end change, poteto mode makes that prototype a checkpoint. Show the call flow and the user flow, then a lightweight sketch of the pages or the API, and wait for confirmation before the real build (`../poteto-mode/playbooks/prototype-first.md`). A small cosmetic change still ships without that pause.
 - Get the details right (transitions, alignment, spacing, feedback, error states)
 - Tighten the core loop (every feature should serve the central workflow or get out of the way)
 
