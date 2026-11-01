@@ -80,6 +80,8 @@ Never take the first design. Ask for a few, and pick from evidence you can see:
 
 The [Prototype playbook](../../skills/poteto-mode/playbooks/prototype.md) builds throwaway sketches in a scratch directory, puts the variants behind one switcher, drives each one, and captures screenshots or timings. It also works for behavior and algorithms, not just UI. Prototypes are planning with code. They let the agent answer its own open questions by running something instead of asking you, and they leave room for an option you wouldn't have thought of.
 
+A new feature or a big front-end change is the exception. The [Prototype-first playbook](../../skills/poteto-mode/playbooks/prototype-first.md) stops and shows you the call flow and the user flow, then a lightweight prototype, and it does not implement until you confirm. A color, a spacing tweak, a copy change, or a tweak inside one component skips that pause. The Prototype playbook above still answers an empirical fork by running something. It does not replace the pause.
+
 The same idea scales up to a real design. Pair `/architect` with prototypes and keep a review gate:
 
 ```text

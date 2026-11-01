@@ -28,7 +28,7 @@ keep a decision log. don't ask me before committing.
 
 Walk through what each line buys you:
 
-- "im going to bed" is a session override. The agent stops asking and keeps going.
+- "im going to bed" is a session override. The agent stops asking and keeps going, except for a new feature or a big front-end change. Those still stop at the [Prototype-first playbook](../../skills/poteto-mode/playbooks/prototype-first.md). Confirm the prototype before you leave if you want that build to proceed while you sleep.
 - "done means..." turns the goal into checks every iteration can run.
 - "fresh worktree off `<base>`" keeps the run from colliding with anything else you have open.
 - "don't ask me before committing" pre-answers the permission the agent would otherwise block on.

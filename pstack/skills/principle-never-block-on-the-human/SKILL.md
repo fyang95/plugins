@@ -1,6 +1,6 @@
 ---
 name: principle-never-block-on-the-human
-description: "Apply when tempted to ask 'should I do X?' on reversible work."
+description: "Apply when tempted to ask 'should I do X?' on reversible work. A new feature or a big front-end change is the Prototype-first exception and waits."
 disable-model-invocation: true
 ---
 
@@ -13,3 +13,5 @@ The human supervises asynchronously. Agents must stay unblocked. Make reasonable
 - Irreversible actions (force-push, delete production data, send external messages) still require confirmation.
 - Reversible actions (write code, edit notes, split tasks) should proceed without blocking.
 - Product direction comes from the human. Execution should not block.
+
+**Exception.** A new feature or a big front-end change pauses on purpose. Poteto mode runs the Prototype-first playbook (`../poteto-mode/playbooks/prototype-first.md`) and waits until the user confirms the flows and the prototype, before any production code. The code would be reversible. The pause still holds, because the product shape is the expensive part. A color, spacing, copy, or single-component tweak, and any other small reversible change, still proceeds without asking. A grant to keep going does not answer the pause.

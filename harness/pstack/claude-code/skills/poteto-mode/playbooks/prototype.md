@@ -2,6 +2,8 @@
 
 **You own the design decision, not the code. The prototype is a throwaway instrument. The real build follows Feature.**
 
+This playbook settles an empirical fork by observation. A new feature or a big front-end change still goes through `playbooks/prototype-first.md` and waits for the user. Use this playbook from inside that gate only when the design space is open.
+
 The one playbook where the Laziness Protocol's "smallest change" and the verification bar invert. Speed over polish, code quality does not matter, no planning. The rigor is in picking the right design cheaply. Propose variations the user didn't ask for, throw an approach away and try another.
 
 1. Scope the decision the prototype exists to make: which layout, which interaction, which density, or for an empirical fork which behavior, timing, or approach. No decision means no prototype. Route to Feature.

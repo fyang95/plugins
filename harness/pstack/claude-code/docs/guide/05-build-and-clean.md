@@ -30,6 +30,8 @@ A perf prompt states the measurement, not an impression:
 
 Each of these routes to its playbook ([Bug fix](../../skills/poteto-mode/playbooks/bug-fix.md), [Feature](../../skills/poteto-mode/playbooks/feature.md), [Refactoring](../../skills/poteto-mode/playbooks/refactoring.md), [Perf issue](../../skills/poteto-mode/playbooks/perf-issue.md)), and the playbook supplies the steps you didn't type: reproduce before fixing, name the data shape before implementing, pin behavior before restructuring, profile before optimizing.
 
+A new API, a new workflow, or a new job the user can do stops at the [Prototype-first playbook](../../skills/poteto-mode/playbooks/prototype-first.md) before any implementation. The agent shows the call flow and the user flow, then a lightweight prototype, and waits. A flag or field on a job that already exists, like the `--json` example above, stays on Feature and does not wait. A new page, a layout or navigation restructure, a multi-component redesign, or a new UI flow waits the same way. A color, spacing, copy, or single-component tweak does not.
+
 For sustained improvement of one number, there's the [Hillclimb playbook](../../skills/poteto-mode/playbooks/hillclimb.md). Give it the metric, a target, and a floor on attempts, and it loops one hypothesis at a time with a frozen measurement harness. It keeps wins and reverts everything else.
 
 Both perf playbooks run [`/benchmark-checklist`](../../skills/benchmark-checklist/SKILL.md) on their numbers. Perf issue vets its baseline and every number after it, and Hillclimb vets its harness before freezing it. [Verify and ship](./06-verify-and-ship.md#vet-a-measured-number-with-benchmark-checklist) shows when to type it yourself.
